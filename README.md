@@ -27,7 +27,7 @@ Calculator based on CATima (GSI, library for calculation of energy loss, range, 
 `energy_range = np.arange(0, 0.7, 0.1)` - energy range for calibration curve [MeV] (the first, the last, bin)
 
 
-#Scaner parameters (depends of scaner)
+#Scanner parameters (depends of scanner)
 
 `A = 600.0` - [GL/MeV]
 
