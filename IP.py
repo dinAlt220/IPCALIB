@@ -149,42 +149,6 @@ class IP():
 		with open("data/GL_" + str(self.Z) + "_Z_" + str(self.Atom) + "_am_" + \
 		str(self.ang) + "_deg_" + str("%.2f" % self.range[0]) + "-" + \
 		str("%.2f" % self.range[-1]) + "_MeV" +  ".txt", "w") as file:
-		
+
 			for i in range(self.range.shape[0]):
 				file.write("{}\t{}\n".format(self.range[i], self.GV_arr[i]))
-
-
-
-# #Tungsten
-# Atom_mass = 183.84
-# Z = 74
-# Q = 0
-
-# # #Aluminum
-# # Atom_mass = 26.981
-# # Z = 13
-# # Q = 0
-
-# layer_thick = 0.01
-
-# energy_range = np.arange(0, 0.7, 0.1)
-
-
-# A = 600.0
-# B = 15.0
-# C = 25.0
-# L = 44.0
-
-
-# ip = IP()
-
-# ip.set_layer_thick(layer_thick)
-# ip.set_theta_incident(0.0)
-# ip.set_type("TR")
-# ip.set_ion(Atom_mass, Z, Q)
-# ip.set_energy_range(energy_range)
-# ip.set_params(A, B, C, L)
-
-# ip.run()
-
-# ip.save_data()
