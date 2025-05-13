@@ -12,8 +12,11 @@ Calculator based on CATima (GSI, library for calculation of energy loss, range, 
 4. `main.py` is the main file for calculation, you need change main parameters inside it, see example below:
 
 #Tungsten (as example)
+
 `Atom_mass = 183.84` - atomic mass of incident ion
+
 `Z = 74` - atom number of incident ion
+
 `Q = 0` - chrge of incident ion
 
 
@@ -25,8 +28,11 @@ Calculator based on CATima (GSI, library for calculation of energy loss, range, 
 
 
 #Scaner parameters (depends of scaner)
+
 `A = 600.0` - [GL/MeV]
+
 `B = 15.0` - [um/MeV]
+
 `C = 25.0` - [GL/MeV]
 
 `L = 44.0` - absoption length [um] (44.0 for TR type)
@@ -49,4 +55,4 @@ Calculator based on CATima (GSI, library for calculation of energy loss, range, 
 
 5. `python3 main.py`
 
-There will be a plot in the end of calculation which you can save/
+There will be a plot in the end of calculation which you can save.
