@@ -43,10 +43,15 @@ Calculator based on CATima (GSI, library for calculation of energy loss, range, 
 `ip = IP()` - create class
 
 `ip.set_layer_thick(layer_thick)` - set layer thick
+
 `ip.set_theta_incident(angle)` - set incident angle of ion
+
 `ip.set_type("TR")` - set IP type
+
 `ip.set_ion(Atom_mass, Z, Q)` - set incident ion type
+
 `ip.set_energy_range(energy_range)` - set energy range for calibration curve
+
 `ip.set_params(A, B, C, L)` - set scanner parameters and absoption length of IP
 
 `ip.run()` - run calculation
