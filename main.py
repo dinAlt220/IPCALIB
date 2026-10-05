@@ -1,20 +1,20 @@
 from IP import IP
 import numpy as np
 
-#Tungsten
-Atom_mass = 183.84 # atomic mass of incident ion
-Z = 74 # atom number of incident ion
-Q = 0 # chrge of incident ion
+# #Tungsten
+# Atom_mass = 183.84 # atomic mass of incident ion
+# Z = 74 # atom number of incident ion
+# Q = 0 # chrge of incident ion
 
-# #Aluminum
-# Atom_mass = 26.981
-# Z = 13
-# Q = 0
+#Aluminum
+Atom_mass = 26.981
+Z = 13
+Q = 0
 
 layer_thick = 0.01 # thick of the thin layer [um] (total layers = 50 um (TR type) / layer_thick)
 angle = 0.0 # incident angle of ion [deg] (0.0 is pirpendicular)
 
-energy_range = np.arange(0, 0.7, 0.1) # energy range for calibration curve [MeV] (the first, the last, bin)
+energy_range = np.arange(0.05, 1.5, 0.01) # energy range for calibration curve [MeV] (the first, the last, bin)
 
 
 #Scaner parameters (depends of scaner)
